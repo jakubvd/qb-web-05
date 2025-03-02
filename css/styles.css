@@ -10,12 +10,6 @@
     }
   }
 
-/* Global Font Setup */
-body {
-    font-family: 'Satoshi Variable', Arial, sans-serif;
-    font-weight: 400; /* Default weight */
-}
-
 /* Custom Select Input Styling */
 .form-input.is-select {
     padding-right: 30px; /* Adjust padding to move the arrow */
