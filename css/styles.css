@@ -16,7 +16,7 @@
     appearance: none; /* Remove default browser styling */
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url("https://cdn.prod.website-files.com/6775a0b27cf5e0d9b6728f11/677707faf896d32dfc6e7a41_bzik%20head%20black%20256px.png"); /* Optional custom arrow */
+    background-image: url("https://cdn.prod.website-files.com/67c23f28ee73c7a9999f663a/67c714313ec9d21a961056bd_arrow-drop-down-form-1.svg"); /* Optional custom arrow */
     background-repeat: no-repeat;
     background-position: right 12px center; /* Adjust arrow position */
     background-size: 24px; /* Adjust the size of the arrow */
