@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const extraParams = isAllowed ? "" : "&controls=1&modestbranding=1&iv_load_policy=3"; 
 
         function loadVideo() {
+            // Ukryj custom button po kliknięciu
+            playButton.style.display = "none";
+
             // Usuń istniejący iframe, jeśli już istnieje
             const existingIframe = videoContainer.querySelector(".yt-lazy-iframe");
             if (existingIframe) existingIframe.remove();
