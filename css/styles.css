@@ -87,6 +87,7 @@
 /* Table Fight Record Styles */
 .fights-record-table {
     width: 100%;
+    font-size: 20px;
     max-width: 1200px;
     margin: 0 auto;
     border-collapse: separate; /* Allows border-radius on rows */
