@@ -87,7 +87,7 @@
 /* Table Fight Record Styles */
 .fights-record-table {
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
     max-width: 1200px;
     margin: 0 auto;
     border-collapse: separate; /* Allows border-radius on rows */
@@ -123,7 +123,7 @@
 .fights-record-table thead th {
     text-align: left;
     font-family: "OverusedGrotesk", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1;
     font-weight: 600;
     letter-spacing: 0px;
