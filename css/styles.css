@@ -122,10 +122,10 @@
 .fights-record-table thead th {
     text-align: left;
     font-family: "OverusedGrotesk", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1;
-    font-weight: 700;
-    letter-spacing: 0.4px;
+    font-weight: 600;
+    letter-spacing: 0px;
     color: var(--gold-2-light);
     padding: 20px 30px 20px 30px; /* 20px horizontal, 30px vertical */
     border-bottom: 1px solid var(--gold-50-op); /* Add stroke only at the bottom */
@@ -187,7 +187,7 @@
 .fights-record-table tbody td:nth-child(5),
 .fights-record-table tbody td:nth-child(6) {
     color: var(--bg-black-90);
-    font-weight: 600;
+    font-weight: 500;
 }
   
 /* Fight Result Buttons */
@@ -195,7 +195,7 @@
     display: block; /* Ensures proper alignment inside the cell */
     padding: 4px 12px 4px 12px;
     border-radius: 4px;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     margin: 0 auto; /* Centers inside its cell */
     width: 140px; /* Ensures it only takes necessary space */
@@ -214,16 +214,16 @@
 
 /* Change Font Weight for All Table Cells EXCEPT First Row and Fight Results */
 .fights-record-table tbody td {
-    font-weight: 700; /* Set desired font weight for normal cells */
+    font-weight: 600; /* Set desired font weight for normal cells */
 }
 
 /* Keep First Row (Headers) & Fight Result Tags Bold */
 .fights-record-table thead th {
-    font-weight: 900; /* Keep headers bold */
+    font-weight: 700; /* Keep headers bold */
 }
 
 .fight-result {
-    font-weight: 800; /* Keep fight result tags bold */
+    font-weight: 600; /* Keep fight result tags bold */
     letter-spacing: 0.4px;
 }
 
@@ -264,7 +264,7 @@
     /* Adjust header text size, weight, and spacing */
     .fights-record-table thead th {
         font-size: 13px; /* Reduce font size for better fit */
-        font-weight: 700; /* Keep headers bold for emphasis */
+        font-weight: 600; /* Keep headers bold for emphasis */
         letter-spacing: 0.2px; /* Adjust letter spacing for readability */
         padding: 10px 10px 10px 10px; /* 8px top, 10px right, 10px bottom, 8px left */
     }
