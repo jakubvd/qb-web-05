@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             gsap.to(window, {
                 duration: duration,
                 scrollTo: { y: targetY, autoKill: true },
-                ease: "power2.inOut"
+                ease: "power3.inOut"
             });
         });
     }
