@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             let targetY = targetSection.getBoundingClientRect().top + window.scrollY; // Get absolute position
             if (isMobile) {
-                targetY -= 200; // Add offset for mobile
+                targetY -= 160; // Add offset for mobile
             }
 
             const currentY = window.scrollY; // Get current scroll position
