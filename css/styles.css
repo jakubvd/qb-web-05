@@ -88,6 +88,7 @@
 .fights-record-table {
     width: 100%;
     font-size: 17px;
+    line-height: 1.2;
     max-width: 1200px;
     margin: 0 auto;
     border-collapse: separate; /* Allows border-radius on rows */
